@@ -12,7 +12,7 @@
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
-    citecolor=blue
+    citecolor=black
 }
 
 
@@ -85,7 +85,10 @@ of air. The Tapline technique allows the user to draw a line by specifying contr
 in the wind: Increasing social presence with a virtual human via environmental airflow 
 interaction in mixed reality by \citeauthor{Blowingint}; the research states that the 
 head-mounted device gives the user a 3D virtual content experience as if it were spatially 
-located in the physical environment \cite{Blowingint}.
+located in the physical environment \cite{Blowingint}.\citeauthor{ARPointer:} developed a system
+that allow users to manipulate three-dimensional (3D) virtual objects in an AR environment, its 
+device called AR Pointer uses a built-in Inertial Measurement Unit (IMU) sensor in a standard mobile
+package to emit a virtual beam that is used to select objects with precision.\cite{ARPointer:}
 \bigskip
 
 
@@ -97,13 +100,33 @@ performs at accuracy rates on par with the high-end advanced motion tracking sys
 \cite{3Dmotionca}. The study of \citeauthor{TowardsHum} states that, they developed an 
 experiment where a minimized portable detection platform was specially designed to track 
 human movement in a 3D setting. Their goal was to collect spatial and temporal information 
-during the human movement process. \cite{TowardsHum}.
+during the human movement process. \cite{TowardsHum}. \citeauthor{HumanMotio}, propose a new 
+method of capturing human motion based on a cooperative structure of low-cost RGBD multiple 
+cameras, to effectively avoid problems when tracking human movement through cameras 
+low-cost depth with low-quality images\cite{HumanMotio}. \citeauthor{Humanactio}, developed an 
+experiment where multilayer neural networks were used. It consists of many layers of interconnected 
+neural units: it starts with an input layer to match the feature space followed by a non-linearity 
+layer and ends with a classification layer to match the output space. It was experimentally proven 
+that after recalculating the motion capture data (MoCap) to represent an invariant position, the 
+classifier can directly use it to successfully recognize various types of actions\cite{Humanactio}.
+\citeauthor{Real-TimeJ} developed a real-time, focusing tracking system for simultaneous tracking 
+of handheld objects based on a single product depth sensor. The classification is based on a 
+multilayer forest architecture with selection of viewpoints. A 3D articulated Gaussian blend 
+alignment designed for handheld object tracking is utilized along with new analytical occlusion 
+constraints and contact handling that enable successful tracking of challenging hand-object
+interactions based on multiple proposals\cite{Real-TimeJ}. \citeauthor{Humanupper}, developed 
+a virtual reality application which consists of a simple kinematic chain between the head and 
+the hands. The parametric solution begins at the head and follows the chain to the hands. The 
+IK solver is based on knowledge of arm length and body size (height), which must be 
+calibrated\cite{Humanupper}. \citeauthor{Choreomorp}, developed a system which has the effect of 
+seeing oneself, as a digital body in motion. Therefore, the Choreomorphy pipeline setup resembles 
+a real-time inertial motion capture session. Regardless of where Choreomorphy is implemented, the 
+environment should be a dark room with a space design of at least 12 square meters so that the user 
+can move freely \cite{Choreomorp}.
+\bigskip
 
-
-\newpage
-
+\clearpage
 
 \printbibliography
-
 
 \end{document}
